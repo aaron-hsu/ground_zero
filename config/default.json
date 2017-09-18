@@ -1,0 +1,42 @@
+{
+
+  "from" : "zero",
+  "redirect_server" : "http://127.0.0.1:5003",
+
+  "user_mongo" : {
+    "db" : "mongodb://127.0.0.1:27017/user-db",
+    "url" : "127.0.0.1",
+    "port" : "27017"
+  },
+
+  "slow_mongo" : {
+    "db" : "mongodb://127.0.0.1:27017/slow-db",
+    "url" : "127.0.0.1",
+    "port" : "27017"
+  },
+
+  "wechat" : {
+    "appid" : "appid",
+    "appSecret" : "appSecret",
+    "appToken" : "appToken"
+  },
+
+  "game" : {
+
+    "fake" : "1",
+    "fake_openid" : "fake_openid",
+
+    "game_server" : "http://127.0.0.1:5003",
+    "game_path" : "/socket.io",
+
+
+
+    "share_title" : "share_title",
+    "share_desc" : "share_desc",
+    "share_img" : "share_img"
+
+  },
+
+  "api_password": "api_password"
+
+}

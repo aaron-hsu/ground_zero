@@ -1,0 +1,24 @@
+{
+  "name": "09.10.ground_zero",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.18.1",
+    "config": "^1.26.2",
+    "express": "^4.15.4",
+    "express-session": "^1.15.5",
+    "log-timestamp": "^0.1.2",
+    "moment": "^2.18.1",
+    "mongodb-bluebird": "^0.1.2",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.1",
+    "wechat-api": "^1.35.1"
+  }
+}
